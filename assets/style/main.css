@@ -314,7 +314,6 @@ h1 img {
     .cover-title__box {
         flex-direction: row;
         column-gap: 8.75rem;
-        flex-wrap: wrap;
     }
 }
 
@@ -336,12 +335,6 @@ h1 img {
     font-size: 0.9375rem;
     color: #000;
     text-align: justify;
-}
-
-@media (min-width: 768px) {
-    .cover-title__text {
-        width: 523px;
-    }
 }
 
 .cover-img__box img {
@@ -768,7 +761,6 @@ h1 img {
 .line {
     border: 1px solid #dddddd;
     width: 100%;
-    margin-bottom: 1rem;
 }
 
 .line:last-child {
@@ -839,7 +831,6 @@ h1 img {
     font-size: 0.9375rem;
     font-weight: bold;
     color: #09947b;
-    padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -847,7 +838,6 @@ h1 img {
         font-size: 0.9375rem;
         font-weight: bold;
         color: #09947b;
-        padding-bottom: 0;
     }
 }
 
@@ -914,7 +904,7 @@ h1 img {
 
 @media (min-width: 768px) {
     .cover2-3 {
-        padding: 9.5rem 1rem 2.6875rem;
+        padding: 9.5rem 1rem 4rem;
     }
 }
 
@@ -928,9 +918,9 @@ h1 img {
 }
 
 @media (min-width: 768px) {
-.cover2-3-img__box {
-    margin-bottom: 0;
-}
+    .cover2-3-img__box {
+        margin-bottom: 0;
+    }
 }
 
 .cover2-3-img__box img {
@@ -950,7 +940,7 @@ h1 img {
 @media (min-width: 768px) {
     .cover2-3-title__box {
         position: absolute;
-        bottom: -1%;
+        bottom: 0%;
         left: 0%;
         background-color: #fff;
         padding: 2.5rem 2.25rem 2.5rem 2.5rem;
@@ -1003,6 +993,12 @@ h1 img {
     padding: 20px 16px 63px;
 }
 
+@media (min-width: 768px) {
+    .gallery {
+        padding: 0 16px 63px;
+    }
+}
+
 /* カルーセル */
 .carousel {
     width: 100%;
@@ -1053,7 +1049,7 @@ h1 img {
     opacity: 1;
 }
 
-/* 特長 
+/* 特長
 ------------------------------------------------*/
 .feature {
     padding: 0 16px 63px;
@@ -1061,7 +1057,7 @@ h1 img {
 
 @media (min-width: 768px) {
     .feature {
-        padding: 72px 16px 72px;
+        padding: 0 16px 72px;
     }
 }
 
@@ -1324,6 +1320,12 @@ h1 img {
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 .qa__accordion {
     padding: 2.5rem 1rem 10.625rem;
+}
+
+@media (min-width: 768px) {
+    .qa__accordion {
+        padding: 0 1rem 10.625rem;
+    }
 }
 
 .qa__accordion-container {
