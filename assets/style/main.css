@@ -727,27 +727,25 @@ main {
     }
 }
 
-.case__img {
+.case__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.case__box img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    margin-bottom: 1rem;
+    object-fit: cover;
     border-radius: 1.5rem;
 }
 
 @media (min-width: 768px) {
-    .case__img {
+    .case__box img {
         width: 100%;
-        aspect-ratio: 4 / 3;
-        margin-bottom: 1rem;
+        aspect-ratio: 5 / 3;
+        object-fit: cover;
         border-radius: 1.5rem;
+        margin-bottom: 1rem;
     }
-}
-
-.case__img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 1.5rem;
 }
 
 .case__text {
@@ -1096,7 +1094,7 @@ main {
 
 .feature__img {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 5 / 3;
     margin-bottom: 1rem;
     border-radius: 1.5rem;
 }
@@ -1246,7 +1244,8 @@ main {
 }
 
 .spec__content-box {
-    border-top:  0.5px solid #dddddd;;
+    border-top: 0.5px solid #dddddd;
+    ;
     border-bottom: 0.5px solid #dddddd;
 }
 
@@ -1326,7 +1325,7 @@ main {
     z-index: 1;
 }
 
-/* 下層ページ２　*/
+/* 下層ページ２ */
 /* faq(アコーディオン)
 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 .faq__accordion {
