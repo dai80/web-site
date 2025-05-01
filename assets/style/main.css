@@ -48,14 +48,14 @@ main {
     font-weight: 600;
     color: #168352;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.15rem;
+    line-height: 1;
 }
 
 @media (min-width: 768px) {
     .section__title {
         font-size: 1.25rem;
         margin-bottom: 0.375rem;
-        line-height: 1;
     }
 }
 
@@ -1197,14 +1197,12 @@ main {
 .spec__name-box3 {
     background-color: #f5f5f5;
     border: 1px solid #dddddd;
-    border-bottom: 0.5px solid #dddddd;
     padding: 0.75rem 0 0.75rem 1.25rem;
 }
 
-.spec__name-box2,
-.spec__name-box3 {
-    border-top: 0.5px solid #dddddd;
-    border-bottom: 0.5px solid #dddddd;
+.spec__name-box2, .spec__name-box3 {
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
 }
 
 @media (min-width: 768px) {
@@ -1219,19 +1217,19 @@ main {
     }
 
     .spec__name-box {
-        border-right: 0.5px solid #dddddd;
-        border-bottom: 0.5px solid #dddddd;
+        border-right: 0;
+        border-bottom: 1px solid #dddddd;
     }
 
     .spec__name-box2 {
-        border-top: 0.5px solid #dddddd;
-        border-right: 0.5px solid #dddddd;
-        border-bottom: 0.5px solid #dddddd;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #dddddd;
     }
 
     .spec__name-box3 {
-        border-top: 0.5px solid #dddddd;
-        border-right: 0.5px solid #dddddd;
+        border-top: 0;
+        border-right: 0;
     }
 }
 
@@ -1244,18 +1242,17 @@ main {
 }
 
 .spec__content-box {
-    border-top: 0.5px solid #dddddd;
-    ;
-    border-bottom: 0.5px solid #dddddd;
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
 }
 
 .spec__content-box1 {
-    border-top: 0.5px solid #dddddd;
-    border-bottom: 0.5px solid #dddddd;
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
 }
 
 .spec__content-box2 {
-    border-top: 0.5px solid #dddddd;
+    border-top: 0;
 }
 
 @media (min-width: 768px) {
@@ -1270,19 +1267,19 @@ main {
     }
 
     .spec__content-box {
-        border-bottom: 0.5px solid #dddddd;
-        border-left: 0.5px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
     }
 
     .spec__content-box1 {
-        border-top: 0.5px solid #dddddd;
-        border-bottom: 0.5px solid #dddddd;
-        border-left: 0.5px solid #dddddd;
+        border-top: 0;
+        border-bottom: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
     }
 
     .spec__content-box2 {
-        border-top: 0.5px solid #dddddd;
-        border-left: 0.5px solid #dddddd;
+        border-top: 0;
+        border-left: 1px solid #dddddd;
     }
 }
 
