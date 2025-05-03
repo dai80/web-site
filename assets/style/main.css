@@ -1192,109 +1192,45 @@ main {
     }
 }
 
-.spec__name-box,
-.spec__name-box2,
-.spec__name-box3 {
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #dddddd;
+}
+
+th,
+td {
+    display: block;
+    text-align: left;
+    border: 1px solid #dddddd;
+    padding: 0.75rem 0 0.75rem 1.25rem;
+}
+
+th {
     background-color: #f5f5f5;
-    border: 1px solid #dddddd;
-    padding: 0.75rem 0 0.75rem 1.25rem;
+    width: 100%;
+    border-bottom: 0;
 }
 
-.spec__name-box2, .spec__name-box3 {
-    border-top: 0;
-    border-bottom: 1px solid #dddddd;
+td {
+    border-bottom: 0;
 }
 
 @media (min-width: 768px) {
+    tr {
+        display: flex;
+    }
 
-    .spec__name-box,
-    .spec__name-box2,
-    .spec__name-box3 {
+    th {
         width: 12.5rem;
-        background-color: #f5f5f5;
-        border: 1px solid #dddddd;
-        padding: 1.5rem 0 1.5rem 1.25rem;
-    }
-
-    .spec__name-box {
         border-right: 0;
-        border-bottom: 1px solid #dddddd;
+        padding: 1.5rem 1.25rem;
     }
 
-    .spec__name-box2 {
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 1px solid #dddddd;
+    td {
+        width: 33.7rem;
+        padding: 1.5rem 1.25rem;
     }
-
-    .spec__name-box3 {
-        border-top: 0;
-        border-right: 0;
-    }
-}
-
-.spec__content-box,
-.spec__content-box1,
-.spec__content-box2 {
-    background-color: #fff;
-    border: 1px solid #dddddd;
-    padding: 0.75rem 0 0.75rem 1.25rem;
-}
-
-.spec__content-box {
-    border-top: 0;
-    border-bottom: 1px solid #dddddd;
-}
-
-.spec__content-box1 {
-    border-top: 0;
-    border-bottom: 1px solid #dddddd;
-}
-
-.spec__content-box2 {
-    border-top: 0;
-}
-
-@media (min-width: 768px) {
-
-    .spec__content-box,
-    .spec__content-box1,
-    .spec__content-box2 {
-        width: 33.8131rem;
-        background-color: #fff;
-        border: 1px solid #dddddd;
-        padding: 1.5rem 0 1.5rem 1.25rem;
-    }
-
-    .spec__content-box {
-        border-bottom: 1px solid #dddddd;
-        border-left: 1px solid #dddddd;
-    }
-
-    .spec__content-box1 {
-        border-top: 0;
-        border-bottom: 1px solid #dddddd;
-        border-left: 1px solid #dddddd;
-    }
-
-    .spec__content-box2 {
-        border-top: 0;
-        border-left: 1px solid #dddddd;
-    }
-}
-
-.spec__name {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000;
-    line-height: 1;
-}
-
-.spec__content {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #000;
-    line-height: 1;
 }
 
 /* contact
